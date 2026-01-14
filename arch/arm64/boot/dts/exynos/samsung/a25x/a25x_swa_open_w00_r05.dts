@@ -1644,9 +1644,13 @@
 
 				s6e3fc3_a25x_ap {
 					SLSI,size = <0x46 0x95>;
-					SLSI,hdr_num = <0x00>;
+					SLSI,hdr_num = <0x3>;
+					hdr_num = <0x03>;
+					hdr_type = <0x02 0x03 0x04 0x00>;
+					hdr_max_luma = <0x44aa20>;
+					hdr_max_avg_luma = <0x124f80>;
+					hdr_min_luma = <0x05>;
 					size = <0x46 0x95>;
-					hdr_num = <0x00>;
 					phandle = <0x24>;
 				};
 
